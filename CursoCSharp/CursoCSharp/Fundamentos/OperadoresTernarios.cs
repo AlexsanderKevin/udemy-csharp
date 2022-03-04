@@ -13,6 +13,7 @@ namespace CursoCSharp.Fundamentos {
             double nota = 7.0;
             bool bomComportamento = false;
             string resultado = nota >= 7.0 && bomComportamento ? "Aprovado" : "Reprovado";
+            // os resultados de uma atribuição ternaria devem respeitar o tipo da variavel que deve receber o valor
             Console.WriteLine(resultado);
         }
     }
