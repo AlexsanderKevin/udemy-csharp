@@ -55,6 +55,7 @@
     <Compile Include="Fundamentos\LendoDados.cs" />
     <Compile Include="Fundamentos\NotacaoPonto.cs" />
     <Compile Include="Fundamentos\OperadoresAritmeticos.cs" />
+    <Compile Include="Fundamentos\OperadoresLogicos.cs" />
     <Compile Include="Fundamentos\OperadoresRelacionais.cs" />
     <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
