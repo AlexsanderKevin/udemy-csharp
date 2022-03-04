@@ -21,6 +21,10 @@ namespace CursoCSharp.Fundamentos {
             var comprouTv32 = executouTrabalho1 ^ executouTrabalho2;
             Console.WriteLine($"Comprou a Tv 32? {comprouTv32}");
             Console.WriteLine($"Mais saudavel? {!comprouSorvete}");
+
+            // Operadores Binários vs Unários
+            // Binários: Operam diante de dois valores, tal como a soma, subtração, igualdade, etc
+            // Unários: Operam em cima de apenas um valor, como é o caso da negação, que apenas inverte um determinado valor.
         }
     }
 }
