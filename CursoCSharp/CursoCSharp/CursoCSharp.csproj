@@ -48,10 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturasDeControle\EstruturaElseIf.cs" />
     <Compile Include="EstruturasDeControle\EstruturaIf.cs" />
     <Compile Include="EstruturasDeControle\EstruturaIfElse.cs" />
     <Compile Include="EstruturasDeControle\EstruturaSwitch.cs" />
+    <Compile Include="EstruturasDeControle\EstruturaWhile.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\FormatandoNumeros.cs" />
     <Compile Include="Fundamentos\Inferencia.cs" />
