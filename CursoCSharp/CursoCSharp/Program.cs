@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -24,6 +25,7 @@ namespace CursoCSharp {
                 {"Operadores de Atribuição - Fundamentos", OperadoresDeAtribuicao.Executar },
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar },
                 {"Operadores Ternários - Fundamentos", OperadoresTernarios.Executar },
+
                 // Estruturas de Controle
                 {"Estrutura IF - Estruturas de Controle", EstruturaIf.Executar },
                 {"Estrutura If / Else - Estruturas de Controle", EstruturaIfElse.Executar },
@@ -35,6 +37,9 @@ namespace CursoCSharp {
                 {"Estrutura ForEach - Estruturas de Controle", EstruturaForEach.Executar },
                 {"Usando Break - Estruturas de Controle", UsandoBreak.Executar },
                 {"Usando Continue - Estruturas de controle", UsandoContinue.Executar },
+
+                // Classes e Métodos
+                {"Membros - Classes e Métodos", Membros.Executar },
             }); ;
 
             central.SelecionarEExecutar();
