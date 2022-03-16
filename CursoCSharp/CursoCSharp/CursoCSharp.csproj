@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="ClassesEMetodos\Construtores.cs" />
     <Compile Include="ClassesEMetodos\Membros.cs" />
     <Compile Include="ClassesEMetodos\Pessoa.cs" />
     <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />

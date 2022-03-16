@@ -18,7 +18,6 @@ namespace CursoCSharp.ClassesEMetodos {
             fulano.Idade = 23;
 
             var apresentacaoDoFulano = fulano.Apresentar();
-            Console.WriteLine(apresentacaoDoFulano);
         }
     }
 }
