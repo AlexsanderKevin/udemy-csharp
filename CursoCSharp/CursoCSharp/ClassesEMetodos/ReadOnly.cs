@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos {
     public class Cliente {
         public string Nome;
-        DateTime Nascimento;
+        // a palavra reservada "readonly" indica um valor que, após criada a instancia, torna-se imutavel. É como se fosse uma constante
+        // mas sem a necessidade de ser inicializada com algum valor
+        readonly DateTime Nascimento;
 
         public Cliente(string nome, DateTime nascimento) {
             Nome = nome;
