@@ -57,10 +57,17 @@
     <Compile Include="ClassesEMetodos\MetodosComRetorno.cs" />
     <Compile Include="ClassesEMetodos\MetodosEstaticos.cs" />
     <Compile Include="ClassesEMetodos\ParametrosNomeados.cs" />
+    <Compile Include="ClassesEMetodos\ParametrosPorReferencia.cs" />
     <Compile Include="ClassesEMetodos\Params.cs" />
     <Compile Include="ClassesEMetodos\Pessoa.cs" />
     <Compile Include="ClassesEMetodos\Props.cs" />
     <Compile Include="ClassesEMetodos\ReadOnly.cs" />
+    <Compile Include="ClassesEMetodos\Struct.cs" />
+    <Compile Include="ClassesEMetodos\StructVsClasse.cs" />
+    <Compile Include="ClassesEMetodos\ValorPadrão.cs" />
+    <Compile Include="ClassesEMetodos\ValorVsReferencia.cs" />
+    <Compile Include="Colecoes\Array.cs" />
+    <Compile Include="Colecoes\ColecoesList.cs" />
     <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturasDeControle\EstruturaElseIf.cs" />
     <Compile Include="EstruturasDeControle\EstruturaFor.cs" />

@@ -17,7 +17,7 @@ namespace CursoCSharp.ClassesEMetodos {
             Console.WriteLine(id);
 
             var filmeParaAFamilia = new Filme();
-            filmeParaAFamilia.Titulo = "Ta dando onda2";
+            filmeParaAFamilia.Titulo = "Ta dando onda 2";
             filmeParaAFamilia.GeneroDoFilme = Genero.Animacao;
 
             Console.WriteLine($"{filmeParaAFamilia.Titulo}, {filmeParaAFamilia.GeneroDoFilme}");
