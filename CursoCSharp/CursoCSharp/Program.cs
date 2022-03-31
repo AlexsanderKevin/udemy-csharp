@@ -65,7 +65,8 @@ namespace CursoCSharp {
                 {"Set - Coleções", ColecoesSet.Executar },
                 {"Queue - Coleções", ColecoesQueue.Executar },
                 {"Igualdade - Coleções", Igualdade.Executar },
-                {"Stack", ColecaoStack.Executar },
+                {"Stack - Coleções", ColecaoStack.Executar },
+                {"Dictionary - Coleções", ColecaoDictionary.Executar },
             });
 
             central.SelecionarEExecutar();

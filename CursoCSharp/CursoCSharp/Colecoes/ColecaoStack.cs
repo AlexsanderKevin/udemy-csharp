@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CursoCSharp.Colecoes {
     class ColecaoStack {
@@ -18,22 +15,22 @@ namespace CursoCSharp.Colecoes {
             //    Console.WriteLine(item);
             //}
 
-            void showAll(dynamic array) {
-                foreach(var item in array) {
+            void ShowAllItems(dynamic collection) {
+                foreach(var item in collection) {
                     Console.WriteLine(item);
                 }
                 Console.WriteLine("");
             }
 
-            showAll(pilha);
+            ShowAllItems(pilha);
 
             var popPilha = pilha.Pop(); // retorna e REMOVE o item do topo;
             Console.WriteLine($"pop: {popPilha}\n");
-            showAll(pilha);
+            ShowAllItems(pilha);
 
             var peekPilha = pilha.Peek(); // retorna mas NÃO remove o item do topo;
             Console.WriteLine($"peek: {peekPilha}\n");
-            showAll(pilha);
+            ShowAllItems(pilha);
         }
     }
 }
