@@ -71,6 +71,7 @@
     <Compile Include="Colecoes\ColecoesQueue.cs" />
     <Compile Include="Colecoes\ColecoesSet .cs" />
     <Compile Include="Colecoes\ColecoesList.cs" />
+    <Compile Include="Colecoes\Igualdade.cs" />
     <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturasDeControle\EstruturaElseIf.cs" />
     <Compile Include="EstruturasDeControle\EstruturaFor.cs" />

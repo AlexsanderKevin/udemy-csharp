@@ -9,11 +9,42 @@ namespace CursoCSharp.Colecoes {
         public string Nome;
         public double Preco;
 
-        public Produto (string nome, double preco) {
+        public Produto(string nome, double preco) {
             Nome = nome;
             Preco = preco;
         }
-        public Produto() { }
+
+        public override bool Equals(object obj) {
+            return obj is Produto produto &&
+                   Nome == produto.Nome &&
+                   Preco == produto.Preco;
+        }
+
+        public override int GetHashCode() {
+            int hashCode = -347481536;
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Nome);
+            hashCode = hashCode * -1521134295 + Preco.GetHashCode();
+            return hashCode;
+        }
+
+        //public Produto (string nome, double preco) {
+        //    Nome = nome;
+        //    Preco = preco;
+        //}
+        //public Produto() { }
+
+        //// Método para sobrescrever um método padrão
+        //public override bool Equals(object obj) {
+        //    Produto outro = (Produto)obj;
+        //    bool mermoNome = Nome == outro.Nome;
+        //    bool mermoPreco = Preco == outro.Preco;
+
+        //    return mermoNome && mermoPreco;
+        //}
+
+        //public override int GetHashCode() {
+        //    return Nome.Length;
+        //}
     }
     class ColecoesList {
         public static void Executar() {
