@@ -19,9 +19,9 @@ namespace CursoCSharp.Colecoes {
         public static void Executar() {
             Produto livro = new Produto(nome: "Game of Thrones", preco: 49.9);
                                             // Generics    
-            List<Produto> carrinho = new List<Produto>();
+            List <Produto> carrinho = new List <Produto>();
 
-            List<Produto> combo = new List<Produto> {
+            List <Produto> combo = new List <Produto> {
                 new Produto("Camisa", 59.9),
                 new Produto("Calça", 99.9),
                 new Produto("Faca", 5.9),
@@ -34,8 +34,9 @@ namespace CursoCSharp.Colecoes {
             foreach(Produto produto in carrinho) {
                 Console.WriteLine($"{carrinho.IndexOf(produto)} - {produto.Nome} - R$ {produto.Preco}");
             }
+
             Console.WriteLine(carrinho.Count); // Lists não têm a propriedade "Length".
-            carrinho.Add(livro); // Lists aceitam dados repetidos;
+            carrinho.Add(livro); // Lists aceitam dados REPETIDOS;
 
             foreach(Produto item in carrinho) {
                 Console.WriteLine($"{carrinho.IndexOf(item)} - {item.Nome}: {item.Preco}");

@@ -67,6 +67,9 @@
     <Compile Include="ClassesEMetodos\ValorPadrão.cs" />
     <Compile Include="ClassesEMetodos\ValorVsReferencia.cs" />
     <Compile Include="Colecoes\Array.cs" />
+    <Compile Include="Colecoes\ArrayList.cs" />
+    <Compile Include="Colecoes\ColecoesQueue.cs" />
+    <Compile Include="Colecoes\ColecoesSet .cs" />
     <Compile Include="Colecoes\ColecoesList.cs" />
     <Compile Include="EstruturasDeControle\EstruturaDoWhile.cs" />
     <Compile Include="EstruturasDeControle\EstruturaElseIf.cs" />
