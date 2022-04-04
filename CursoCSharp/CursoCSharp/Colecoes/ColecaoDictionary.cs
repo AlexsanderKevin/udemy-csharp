@@ -21,7 +21,6 @@ namespace CursoCSharp.Colecoes {
                     Console.WriteLine($"{item.Key} - {item.Value}");
                 }
             }
-
             showAll(filmes);
 
             if (filmes.ContainsKey(2002)) {
@@ -40,12 +39,10 @@ namespace CursoCSharp.Colecoes {
             foreach (int chave in filmes.Keys) {
                 Console.WriteLine($"{chave}");
             }
-
             // Percorrer valores
             foreach (string valor in filmes.Values) {
                 Console.WriteLine($"{valor}");
             }
-
             // Percorrer chave e valor
             foreach (KeyValuePair<int, string> filme in filmes) {
                 Console.WriteLine($"{filme.Value} é de {filme.Key}");
