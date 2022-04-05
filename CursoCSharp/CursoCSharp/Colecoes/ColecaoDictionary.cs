@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Colecoes {
     class ColecaoDictionary {
         public static void Executar() {
-                                                         // chave - NÃO repete  
+                                                         // chave - NÃO repete
             Dictionary<int, string> filmes = new Dictionary<int, string>();
-                                                              // valor - PODE repetir     
+                                                              // valor - PODE repetir
             filmes.Add(2000, "Gladiador");
             filmes.Add(2002, "As branquelas");
             filmes.Add(2004, "Os Incríveis");
