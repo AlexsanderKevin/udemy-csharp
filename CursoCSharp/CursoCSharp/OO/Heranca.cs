@@ -28,10 +28,10 @@ namespace CursoCSharp.OO {
             return VelocidadeAtual;
         }
 
-        public int Acelerar() {
+        public virtual int Acelerar() { // "virtual" significa que o método PODE ser sobrescrito.
             return AlterarVelocidade(5);
         }
-        public int Freiar() {
+        public int Frear() {
             return AlterarVelocidade(-5);
         }
     }
@@ -44,18 +44,42 @@ namespace CursoCSharp.OO {
 
     public class Ferrari : Carro {
         public Ferrari() : base(450) { }
+
+        public override int Acelerar() { // "override" sobrescreve APENAS membros marcados como "virtual";
+            return AlterarVelocidade(15);
+        }
+
+        // Oculta o método da classe Pai;
+        public new int Frear() {
+            return AlterarVelocidade(-15);
+        }
     }
     class Heranca {
         public static void Executar() {
+            Console.WriteLine("Uno");
             Uno carro1 = new Uno ();
             Console.WriteLine($"acelerar: {carro1.Acelerar()}");
             Console.WriteLine($"acelerar: {carro1.Acelerar()}");
-            Console.WriteLine($"freiar: {carro1.Freiar()}");
-            Console.WriteLine($"freiar: {carro1.Freiar()}");
+            Console.WriteLine($"freiar: {carro1.Frear()}");
+            Console.WriteLine($"freiar: {carro1.Frear()}");
 
+            Console.WriteLine("Ferrari 1");
             Ferrari carro2 = new Ferrari();
             Console.WriteLine($"{carro2.Acelerar()}");
             Console.WriteLine($"{carro2.Acelerar()}");
+            Console.WriteLine($"{carro2.Frear()}");
+
+            Console.WriteLine("Ferrari com tipo Carro...");
+            Carro carro3 = new Ferrari();
+            Console.WriteLine($"{carro3.Acelerar()}");
+            Console.WriteLine($"{carro3.Acelerar()}");
+            Console.WriteLine($"{carro3.Frear()}"); // neste caso o método Frear() é o mesmo da classe genérica "Carro";
+
+            Console.WriteLine("Uno com tipo Carro...");
+            carro3 = new Uno();
+            Console.WriteLine($"{carro3.Acelerar()}");
+            Console.WriteLine($"{carro3.Acelerar()}");
+            Console.WriteLine($"{carro3.Frear()}");
         }
     }
 }

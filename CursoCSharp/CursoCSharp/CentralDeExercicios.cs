@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CursoCSharp {
     public class CentralDeExercicios {
-        Dictionary<string, Action> Exercicios;
+        readonly Dictionary<string, Action> Exercicios;
 
         public CentralDeExercicios(Dictionary<string, Action> exercicios) {
             Exercicios = exercicios;    
