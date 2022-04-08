@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -99,6 +100,13 @@
     <Compile Include="Fundamentos\VariaveisEConstantes.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
+    <Compile Include="OO\Abstract.cs" />
+    <Compile Include="OO\ConstrutorThis.cs" />
+    <Compile Include="OO\Encapsulamento.cs" />
+    <Compile Include="OO\Heranca.cs" />
+    <Compile Include="OO\Interface.cs" />
+    <Compile Include="OO\Polimorfismo.cs" />
+    <Compile Include="OO\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

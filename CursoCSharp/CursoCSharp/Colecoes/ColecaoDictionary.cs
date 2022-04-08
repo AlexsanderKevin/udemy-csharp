@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Colecoes {
     class ColecaoDictionary {
         public static void Executar() {
-                                                         // chave - NÃO repete  
+                                                         // chave - NÃO repete
             Dictionary<int, string> filmes = new Dictionary<int, string>();
-                                                              // valor - PODE repetir     
+                                                              // valor - PODE repetir
             filmes.Add(2000, "Gladiador");
             filmes.Add(2002, "As branquelas");
             filmes.Add(2004, "Os Incríveis");
@@ -21,7 +21,6 @@ namespace CursoCSharp.Colecoes {
                     Console.WriteLine($"{item.Key} - {item.Value}");
                 }
             }
-
             showAll(filmes);
 
             if (filmes.ContainsKey(2002)) {
@@ -40,12 +39,10 @@ namespace CursoCSharp.Colecoes {
             foreach (int chave in filmes.Keys) {
                 Console.WriteLine($"{chave}");
             }
-
             // Percorrer valores
             foreach (string valor in filmes.Values) {
                 Console.WriteLine($"{valor}");
             }
-
             // Percorrer chave e valor
             foreach (KeyValuePair<int, string> filme in filmes) {
                 Console.WriteLine($"{filme.Value} é de {filme.Key}");
