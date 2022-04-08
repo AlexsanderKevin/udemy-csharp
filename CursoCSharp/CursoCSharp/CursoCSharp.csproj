@@ -100,7 +100,9 @@
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="OO\ConstrutorThis.cs" />
+    <Compile Include="OO\Encapsulamento.cs" />
     <Compile Include="OO\Heranca.cs" />
+    <Compile Include="OO\Polimorfismo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
