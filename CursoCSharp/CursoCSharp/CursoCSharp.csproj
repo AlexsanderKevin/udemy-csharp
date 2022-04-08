@@ -106,6 +106,7 @@
     <Compile Include="OO\Heranca.cs" />
     <Compile Include="OO\Interface.cs" />
     <Compile Include="OO\Polimorfismo.cs" />
+    <Compile Include="OO\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

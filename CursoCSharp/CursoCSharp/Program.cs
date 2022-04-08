@@ -75,6 +75,7 @@ namespace CursoCSharp {
                 {"Polimorfismo - OO", Polimorfismo.Executar },
                 {"Classe Abstrata - OO", Abstract.Executar },
                 {"Interface - OO", Interface.Executar },
+                {"Sealed - OO", Sealed.Executar },
             });
 
             central.SelecionarEExecutar();

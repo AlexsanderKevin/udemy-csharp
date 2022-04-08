@@ -21,7 +21,8 @@ namespace CursoCSharp.OO {
         }
         
         public bool teste(string a) {
-            return true;        }
+            return true;        
+        }
     }
 
     class Subtracao : OperacaoBinaria {
